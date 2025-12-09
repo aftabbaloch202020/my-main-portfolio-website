@@ -359,6 +359,18 @@ nav a {
         font-size:22px;
     }
 
+     a{
+        text-decoration: none;
+     }
+    a span{
+        color: white;
+        cursor: pointer;    
+    }
+    a span::after{
+        color: blue;
+        cursor: pointer;
+    }
+
     .socials{
         display:flex;
         gap:15px;
@@ -463,3 +475,4 @@ nav a {
         border-top:1px solid rgba(255,255,255,0.1);
     }
 /* --- message SECTION --- */
+
