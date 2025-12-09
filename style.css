@@ -9,6 +9,9 @@ body {
     background: #000;
     color: #fff;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 /* --- NAVBAR --- */
 header {
@@ -475,4 +478,5 @@ nav a {
         border-top:1px solid rgba(255,255,255,0.1);
     }
 /* --- message SECTION --- */
+
 
